@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MinEle{
+public class MinElement{
   public static void main(String ara[]){
     Scanner s=new Scanner(System.in);
     int n=s.nextInt();
@@ -12,3 +12,5 @@ public class MinEle{
         min=a[i];
     }
     System.out.print(min);
+  }
+}
